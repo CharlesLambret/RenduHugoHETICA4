@@ -3,7 +3,6 @@ languageCode = 'fr-fr'
 title = 'Site test'
 theme = 'ananke'
 
-description = "Un blog personnel sur le développement web, la programmation et les
-nouvelles technologies."
+description = "Un blog personnel sur le développement web, la programmation et les nouvelles technologies."
 # Paramètres spécifiques au thème Ananke
 showReadingTime = true
