@@ -1,6 +1,6 @@
 baseURL = 'https://charleslambret.github.io/TestHugoHETIC'
 languageCode = 'fr-fr'
-title = 'Test modif'
+title = 'Test modif 2'
 theme = 'ananke'
 
 description = "Un blog personnel sur le développement web, la programmation et les nouvelles technologies."
