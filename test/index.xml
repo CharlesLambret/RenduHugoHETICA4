@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tests on Site test</title>
+    <link>https://charleslambret.github.io/TestHugoHETIC/test/</link>
+    <description>Recent content in Tests on Site test</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 14 Nov 2023 14:31:15 +0100</lastBuildDate>
+    <atom:link href="https://charleslambret.github.io/TestHugoHETIC/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://charleslambret.github.io/TestHugoHETIC/test/test/</link>
+      <pubDate>Tue, 14 Nov 2023 14:31:15 +0100</pubDate>
+      <guid>https://charleslambret.github.io/TestHugoHETIC/test/test/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

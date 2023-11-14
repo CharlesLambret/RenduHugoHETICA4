@@ -2,10 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://charleslambret.github.io/TestHugoHETIC/posts/</loc>
-    <lastmod>2023-11-14T11:38:53+01:00</lastmod>
-  </url><url>
     <loc>https://charleslambret.github.io/TestHugoHETIC/</loc>
+    <lastmod>2023-11-14T14:31:15+01:00</lastmod>
+  </url><url>
+    <loc>https://charleslambret.github.io/TestHugoHETIC/test/test/</loc>
+    <lastmod>2023-11-14T14:31:15+01:00</lastmod>
+  </url><url>
+    <loc>https://charleslambret.github.io/TestHugoHETIC/test/</loc>
+    <lastmod>2023-11-14T14:31:15+01:00</lastmod>
+  </url><url>
+    <loc>https://charleslambret.github.io/TestHugoHETIC/articles/</loc>
+    <lastmod>2023-11-14T14:27:20+01:00</lastmod>
+  </url><url>
+    <loc>https://charleslambret.github.io/TestHugoHETIC/articles/test/</loc>
+    <lastmod>2023-11-14T14:27:20+01:00</lastmod>
+  </url><url>
+    <loc>https://charleslambret.github.io/TestHugoHETIC/posts/</loc>
     <lastmod>2023-11-14T11:38:53+01:00</lastmod>
   </url><url>
     <loc>https://charleslambret.github.io/TestHugoHETIC/posts/test/</loc>
