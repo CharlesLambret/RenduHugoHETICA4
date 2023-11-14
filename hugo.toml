@@ -4,5 +4,4 @@ title = 'Test modif 2'
 theme = 'testtheme'
 
 description = "Un blog personnel sur le développement web, la programmation et les nouvelles technologies."
-# Paramètres spécifiques au thème Ananke
-showReadingTime = true
+
