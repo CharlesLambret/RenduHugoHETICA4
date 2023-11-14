@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://charleslambret.github.io/TestHugoHETIC/posts/</loc>
+    <lastmod>2023-11-14T11:38:53+01:00</lastmod>
+  </url><url>
+    <loc>https://charleslambret.github.io/TestHugoHETIC/</loc>
+    <lastmod>2023-11-14T11:38:53+01:00</lastmod>
+  </url><url>
+    <loc>https://charleslambret.github.io/TestHugoHETIC/posts/test/</loc>
+    <lastmod>2023-11-14T11:38:53+01:00</lastmod>
+  </url><url>
+    <loc>https://charleslambret.github.io/TestHugoHETIC/categories/</loc>
+  </url><url>
+    <loc>https://charleslambret.github.io/TestHugoHETIC/tags/</loc>
+  </url>
+</urlset>
