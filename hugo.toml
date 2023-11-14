@@ -1,0 +1,4 @@
+baseURL = 'https://charleslambret.github.io/TestHugoHETIC'
+languageCode = 'fr'
+title = 'Site test'
+theme = "testtheme"
