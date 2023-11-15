@@ -11,7 +11,7 @@
     <p>Durée: {{ .Params.duree }}</p>
   
     {{ if .Params.srcimg }}
-    <img src="{{ .Site.BaseURL }}/uploads/{{ .Params.srcimg }}" alt="Cover of {{ .Title }}" />
+    <img src="{{ .Site.BaseURL }}/uploads/{{ .Params.srcimg }}" alt="Cover of {{ .Title }}" class="imagemusique-liste"/>
     {{ end }}
     {{ if .Params.spotifyTrackID }}
     <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/{{ .Params.spotifyTrackID }}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
