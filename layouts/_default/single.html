@@ -8,7 +8,9 @@
       {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
     </h1>
     <h2>{{ .Params.artiste }}</h2>
+    {{- if .Params.duree }} 
     <p>Durée: {{ .Params.duree }}</p>
+    {{- end }} 
   
     {{ if .Params.srcimg }}
     <img src="{{ .Site.BaseURL }}/uploads/{{ .Params.srcimg }}" alt="Cover of {{ .Title }}" class="imagemusique-liste"/>

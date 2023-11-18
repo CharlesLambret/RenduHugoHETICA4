@@ -4,13 +4,28 @@
     margin: auto;
     width:80%;
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     flex-wrap: wrap;
     justify-content:center;
     align-items:center;
  
 }
-
+#boutonpagecours{
+    color: var(--theme);
+    background-color: var(--primary);
+    width: 30%;
+    text-align:center;
+    padding:4px;
+    font-style:bold;
+    border-radius:15px;
+}
+.contenu{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+}
 .page-header h1 {
     font-size: 40px;
 }
