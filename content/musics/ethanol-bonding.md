@@ -9,4 +9,9 @@ spotifyTrackID = '70AfqHlgE5AOv6USV8173f'
 
 +++
 
+Technoboi from Belgium
+@vaguetechno / @reformtechno
 
+Bookings / MGMT : robin@elevenfive.be
+
+Contact/promo: swartofficial@gmail.com

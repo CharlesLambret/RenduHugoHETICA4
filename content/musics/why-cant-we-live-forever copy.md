@@ -10,3 +10,5 @@ spotifyTrackID = '6UVMbsN3o13f4LriXGsAmU'
 +++
 
 
+booking: djheartstring@teamwass.com
+all inquiries: jack@overcastmgmt.com / jarred@overcastmgmt.com
