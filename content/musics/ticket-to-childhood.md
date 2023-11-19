@@ -9,3 +9,5 @@ spotifyTrackID = '3nSIvZpvO6kU87bmSGwZVV'
 
 +++
 
+booking contact: richard@paramountartists.com
+
