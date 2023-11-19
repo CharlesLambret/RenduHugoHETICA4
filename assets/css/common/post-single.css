@@ -42,7 +42,9 @@ article .image-container:hover::after {
 }
 
 
-article .image-container .iframe-spotify {
+
+
+.article .image-container .iframe-spotify {
     display: block;
     opacity: 0;
     position: absolute;
@@ -53,9 +55,16 @@ article .image-container .iframe-spotify {
     transition: opacity 0.5s ease;
 }
 
-article .image-container:hover .iframe-spotify {
+
+.article .image-container.show-iframe .iframe-spotify {
     opacity: 1;
 }
+@media (min-width: 768px) {
+    .article .image-container:hover .iframe-spotify {
+        opacity: 1;
+    }
+}
+
 
 
 
@@ -91,6 +100,8 @@ article .image-container:hover .iframe-spotify {
 
 .single-post-content {
     color: var(--content);
+    padding-left:1%;
+    padding-right:1%;
 }
 
 .single-post-content h3,
@@ -456,4 +467,12 @@ h1>a>svg {
 img.in-text {
     display: inline;
     margin: auto;
+}
+@media(max-width:800px){
+    .single-post-header{
+        margin:0px;
+    }
+    article .imagemusique-single{
+        height:100%;
+    }
 }

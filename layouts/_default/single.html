@@ -69,5 +69,15 @@
   {{- partial "comments.html" . }}
   {{- end }}
 </article>
+<script>
+ document.addEventListener('DOMContentLoaded', function() {
+    var container = document.querySelector('.single-post-single .image-container');
+    if (container) {
+        container.addEventListener('click', function() {
+            this.classList.toggle('show-iframe');
+        });
+    }
+});
 
+</script>
 {{- end }}{{/* end main */}}

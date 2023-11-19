@@ -86,3 +86,13 @@ div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
 }
+@media (max-width:800px){
+    .contenu{
+        flex-direction:column;
+        
+    }
+    #boutonpagecours{
+        width:80%;
+    }
+
+}

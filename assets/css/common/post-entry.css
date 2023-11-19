@@ -124,3 +124,10 @@
     color: var(--secondary);
     box-shadow: 0 1px 0 var(--primary);
 }
+@media (max-width:800px){
+    .post-entry{
+        width:80%;
+        
+
+    }
+}
