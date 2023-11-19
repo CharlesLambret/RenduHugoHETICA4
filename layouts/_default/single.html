@@ -7,7 +7,7 @@
   </div>
   {{ end }}
   
-  <header class="single-post-header">
+  <header class="single-post-header" style="margin-top:10%;">
     {{ if .Params.spotifyTrackID }}
       <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/{{ .Params.spotifyTrackID }}?utm_source=generator"  frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     {{ end }}
@@ -42,7 +42,7 @@
   {{- end }}
 
   {{- if .Content }}
-  <div class="single-post-content">
+  <div class="single-post-content"  >
     {{- if not (.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" .Content -}}
     {{- else }}{{ .Content }}{{ end }}

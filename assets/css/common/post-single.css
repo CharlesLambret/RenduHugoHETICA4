@@ -451,8 +451,8 @@ img.in-text {
     margin: auto;
 }
 @media(max-width:800px){
-    .single-post-header{
-        margin:0px;
+    .main .single-post-single .single-post-header{
+        margin-top:60% !important;
     }
     article .imagemusique-single{
         height:100%;
