@@ -87,9 +87,12 @@ pre:hover .copy-code {
     display: block;
 }
 #hautdepage {
-    height:15%;
+    width:100%;
+    height:10%;
     padding:1%;
-    background-color: var(--hljs-bg)
+    background-color: var(--hljs-bg);
+    position: fixed;
+    z-index:9999;
 }
 #hautdepage a:hover{
     color: var(--contrast)
@@ -132,6 +135,34 @@ pre:hover .copy-code {
     }
     #boutonpagecours{
         width:80%;
+    }
+    #basdepage{
+        flex-direction: column;
+        padding-left:3%;
+        padding-right:3%;
+        padding-top:10%;
+        padding-bottom:10%;
+        text-align:center;
+        gap:2em;
+        
+    }
+    #hautdepage{
+        height:25%;
+    }
+    #hautdepage .nav .logo {
+        flex-direction: column-reverse;
+        align-items:center;
+        justify-content: center;
+        padding-top:5%;
+    }
+    #hautdepage .nav .logo #menu {
+        height:5%;
+    }
+    #hautdepage .nav .logo #logo {
+        width:30%;
+    }
+    .contenu{
+        margin-top:50%;
     }
 
 }
