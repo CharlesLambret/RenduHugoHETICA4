@@ -49,6 +49,7 @@ article .image-container::after {
 .single-post-title {
     margin-bottom:1%;
     font-size: 40px;
+    margin-top:8%;
 }
 
 .single-post-description {
@@ -277,6 +278,7 @@ article .image-container::after {
     margin-left:15%;
     margin-top:-1%;
     z-index:9999;
+    margin-bottom:-8%;
 }
 .single-post-content img {
     border-radius: 4px;
@@ -453,14 +455,14 @@ img.in-text {
 }
 @media(max-width:800px){
     .main .single-post-single .single-post-header .single-post-title{
-        margin-top:200px ;
+        margin-top:220px ;
     }
     article .imagemusique-single{
         height:100%;
     }
     .single-post-header iframe{
         height: 200px;
-        margin-bottom:-200px;
+        margin-bottom:-220px;
     }
     
     .single-post-header, .single-post-content{
