@@ -1,6 +1,5 @@
 .page-header,
 .single-post-header {
-    margin: 24px auto var(--content-gap) auto;
     padding-left:1%;
     padding-right:1%;
 }
@@ -453,12 +452,17 @@ img.in-text {
     margin: auto;
 }
 @media(max-width:800px){
-    .main .single-post-single .single-post-header{
-        margin-top:0% !important;
+    .main .single-post-single .single-post-header .single-post-title{
+        margin-top:200px ;
     }
     article .imagemusique-single{
         height:100%;
     }
+    .single-post-header iframe{
+        height: 200px;
+        margin-bottom:-200px;
+    }
+    
     .single-post-header, .single-post-content{
         
         padding-left:3%;
