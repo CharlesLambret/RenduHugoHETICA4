@@ -2,6 +2,7 @@ baseURL = 'https://charleslambret.github.io/TestHugoHETIC'
 languageCode = 'fr-fr'
 title = 'Mes musiques favorites'
 theme = 'testtheme'
+defaultTheme = 'dark'
 
 description = "Un blog personnel sur le développement web, la programmation et les nouvelles technologies."
 

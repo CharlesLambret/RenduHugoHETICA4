@@ -1,6 +1,6 @@
 +++
 title = "Ticket to childhood"
-artiste = "DJ Heartstring - Narciss"
+artiste = "vladimir dubyshkin"
 date = 2023-11-14T15:40:11+01:00
 draft = false
 duree = '5:11'
