@@ -4,14 +4,13 @@
   {{ if .Params.srcimg }}
   <div class="image-container">
     <img src="{{ .Site.BaseURL }}/uploads/grandes/{{ .Params.srcimg }}" alt="Cover of {{ .Title }}" class="imagemusique-single"/>
-    {{ if .Params.spotifyTrackID }}
-      <iframe class="iframe-spotify" style="border-radius:12px" src="https://open.spotify.com/embed/track/{{ .Params.spotifyTrackID }}?utm_source=generator" width="40%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    {{ end }}
   </div>
   {{ end }}
   
   <header class="single-post-header">
-    
+    {{ if .Params.spotifyTrackID }}
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/{{ .Params.spotifyTrackID }}?utm_source=generator"  frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    {{ end }}
     {{ partial "breadcrumbs.html" . }}
     <h1 class="single-post-title">
       {{ .Title }}
