@@ -459,4 +459,9 @@ img.in-text {
     article .imagemusique-single{
         height:100%;
     }
+    .single-post-header, .single-post-content{
+        
+        padding-left:3%;
+        padding-right:3%;
+    }
 }
