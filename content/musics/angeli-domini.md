@@ -9,3 +9,5 @@ spotifyTrackID = '0JkUZtDFKWCIeL5HtEaseK'
 
 +++
 
+Within the last four years, EDM duo VIZE have enjoyed unprecedented success in Germany and throughout Europe: VIZE has more than 2 billion streams and 1.3 million records sold, more than 30 gold and platinum awards in eight countries, plus over 70 released singles and remixes for and with the likes of Felix Jaehn, Sam Feldt, Afrojack, Leony, R3HAB, Dimitri Vegas & Like Mike, Papa Roach, Capital Bra, Mark Forster, Alan Walker and Tokio Hotel.
+The duo, consisting of producer Vitali Zestovskih and DJ Johannes Vimalavong, have also built up a reputation as a touring act within a very short time. Having played gigs and shows in all over Europe, the UK and Asia and festivals like Tomorrowland, Parookaville, Electric Love, AirbeatOne, SonneMondSterne and many more.
