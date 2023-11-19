@@ -1,31 +1,36 @@
 {{- define "main" }}
 
-<article class="post-single">
-  <header class="post-header">
+<article class="single-post-single">
+  {{ if .Params.srcimg }}
+  <div class="image-container">
+    <img src="{{ .Site.BaseURL }}/uploads/grandes/{{ .Params.srcimg }}" alt="Cover of {{ .Title }}" class="imagemusique-single"/>
+  </div>
+  {{ end }}
+  
+  <header class="single-post-header">
+    {{ if .Params.spotifyTrackID }}
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/{{ .Params.spotifyTrackID }}?utm_source=generator"  frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    {{ end }}
     {{ partial "breadcrumbs.html" . }}
-    <h1 class="post-title">
+    <h1 class="single-post-title">
       {{ .Title }}
       {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
     </h1>
     <h2>{{ .Params.artiste }}</h2>
-    {{- if .Params.duree }} 
-    <p>Durée: {{ .Params.duree }}</p>
-    {{- end }} 
-  
-    {{ if .Params.srcimg }}
-    <img src="{{ .Site.BaseURL }}/uploads/{{ .Params.srcimg }}" alt="Cover of {{ .Title }}" class="imagemusique-liste"/>
-    {{ end }}
-    {{ if .Params.spotifyTrackID }}
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/{{ .Params.spotifyTrackID }}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    {{ end }}
-  
+    
 
-    {{- if .Description }}
-    <div class="post-description">
-
+   
+    <div class="single-post-description">
+      {{- if .Params.duree }} 
+        <p>Durée: {{ .Params.duree }}</p>
+      {{- end }} 
+  
+    
+      {{- if .Description }}
       {{ .Description }}
+      {{- end }}
     </div>
-    {{- end }}
+   
     {{- if not (.Param "hideMeta") }}
    
     {{- end }}
@@ -37,16 +42,16 @@
   {{- end }}
 
   {{- if .Content }}
-  <div class="post-content">
+  <div class="single-post-content">
     {{- if not (.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" .Content -}}
     {{- else }}{{ .Content }}{{ end }}
   </div>
   {{- end }}
 
-  <footer class="post-footer">
+  <footer class="single-post-footer">
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
-    <ul class="post-tags">
+    <ul class="single-post-tags">
       {{- range ($.GetTerms $tags) }}
       <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
       {{- end }}
@@ -63,5 +68,15 @@
   {{- partial "comments.html" . }}
   {{- end }}
 </article>
+<script>
+ document.addEventListener('DOMContentLoaded', function() {
+    var container = document.querySelector('.single-post-single .image-container');
+    if (container) {
+        container.addEventListener('click', function() {
+            this.classList.toggle('show-iframe');
+        });
+    }
+});
 
+</script>
 {{- end }}{{/* end main */}}

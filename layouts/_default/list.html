@@ -29,7 +29,6 @@
   {{- end }}
 </header>
 {{- end }}
-<a href="{{ .Permalink }}/cours" id="boutonpagecours">Ce que j'ai retenu du cours</a>
 <div class="contenu">
   
   {{- if .Content }}
@@ -66,13 +65,11 @@
   {{- end }}
   
   <article class="{{ $class }}">
-    {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
-    {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
+ 
     <header class="entry-header">
-      <img src="{{ .Site.BaseURL }}/uploads/{{ .Params.srcimg }}" alt="Cover of {{ .Title }}" />
+      <img src="{{ .Site.BaseURL }}/uploads/miniatures/{{ .Params.srcimg }}" alt="Cover of {{ .Title }}" class="imagemusique-liste"/>
       <h2>
         {{- .Title }}
-        {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
       </h2>
     </header>
     {{- if (ne (.Param "hideSummary") true) }}
@@ -110,6 +107,10 @@
       {{- end }}
     </nav>
   </footer>
+  <script>
+   
+
+  </script>
 </div>
 
 {{- end }}
