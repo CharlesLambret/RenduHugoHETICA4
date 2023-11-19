@@ -14,6 +14,8 @@ article .image-container {
     overflow: hidden; 
     position: relative;
     cursor: pointer; 
+
+    
 }
 
 article .imagemusique-single {
@@ -452,7 +454,7 @@ img.in-text {
 }
 @media(max-width:800px){
     .main .single-post-single .single-post-header{
-        margin-top:60% !important;
+        margin-top:0% !important;
     }
     article .imagemusique-single{
         height:100%;
